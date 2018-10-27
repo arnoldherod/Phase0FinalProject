@@ -1,0 +1,63 @@
+
+
+<html>
+  <head>
+    <title>Basic Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
+  </head>
+  <body>
+    <div id="page-title"> <h1> Let's Learn About Conversion!</h1> </div>
+    <div class= "userInput"> Initial Weight: <input type="text" id="initialWeight" value=""><br>
+
+        <div class="dropdown">
+            <!-- <select id = "unitType" onclick=changeUnit()>
+                <option value="area">Area</option>
+                <option value="volume">Volume</option>
+                <option value="Weight">Weight</option>
+            </select> -->
+
+            Initial Unit:
+            <select id = "inputUnit">
+                <option value="KM">KM</option>
+                <option value="HM">HM</option>
+                <option value="DAM">DAM</option>
+                <option value="M">M</option>
+                <option value="CM">CM</option>
+                <option value="DM">DM</option>
+                <option value="MM">MM</option>
+            </select>      
+
+            Output Unit:
+            <select id = "outputUnit">
+                <option value="KM">KM</option>
+                <option value="HM">HM</option>
+                <option value="DAM">DAM</option>
+                <option value="M">M</option>
+                <option value="CM">CM</option>
+                <option value="DM">DM</option>
+                <option value="MM">MM</option>
+            </select>      
+        </div>
+
+    <br>
+
+    <input id="convertButton" type="submit" value="Convert!" onclick="saveUnit()">
+    
+    <br>
+    <br>
+
+    <div id="convertedWeight"> Output Weight: </div>
+
+
+    </div>
+    <script src="unitConversion.js"></script>
+    
+
+    <br>
+    <img id=conversionTable src="http://www.ep309.org/faculty/HOBBSMAR/hmwkhelp/P1hmwkhlp1st_files/image002.gif" alt="Sorry, the Conversion Chart is unavailable because you're not connected to the internet!">
+
+
+
+  </body>
+
+</html>
